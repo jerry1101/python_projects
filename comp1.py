@@ -16,6 +16,12 @@ print ("Second Argument",args.archivedFile)
 
 
 
+#file1.write("test")
+
+#file1.close()
+#-- open log file
+history = open("history.txt","a+")
+
 #with open('./local.properties') as f:
 with open(args.deployedFile) as f:
     t1 = f.read().splitlines()
@@ -28,10 +34,18 @@ with open(args.archivedFile) as f:
 
 #-- in file1 but not file2
 for diff in t1s-t2s:
-    print (str(datetime.now()),"Only in file1",t1.index(diff), diff)
+    log1="%s Only in deployed file %s %s \n"%(str(datetime.now()),t1.index(diff), diff)
+    print (log1)
+    history.write(log1)
+    history.write("\r\n")
+    #print (str(datetime.now()),"Only in file1",t1.index(diff), diff)
 
 #-- in file2 but not file1
 for diff in t2s-t1s:
-    print (str(datetime.now()),"Only in file2",t2.index(diff), diff)
+    log2="%s Only in archived file %s %s \n"%(str(datetime.now()),t2.index(diff), diff)
+    print (log2)
+    history.write(log2)
+    history.write("\r\n")
+    #print (str(datetime.now()),"Only in file2",t2.index(diff), diff)
 
 #send out notification when discrepancy exists
