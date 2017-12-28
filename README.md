@@ -2,7 +2,7 @@
 
 One Paragraph of project description goes here
 
-## <FUNCTION> Compare configuration files and log changes
+## [FUNCTION#1] Compare configuration files and log changes
 
 ### Related Files:
 
