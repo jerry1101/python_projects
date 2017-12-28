@@ -11,13 +11,14 @@ These instructions will get you a copy of the project up and running on your loc
 ### Install Steps:
 
 What things you need to install the software and how to install them
-      1. Give execute permission to that script using
+      
+      * Give execute permission to that script using
           chmod a+x foo.py
       
-      1. Enter crontab editor
+      * Enter crontab editor
       crontab -e
       
-      1. Setup cron expression:
+      * Setup cron expression:
       50 19 * * * python hello.py 
       command to execute define the time of execution of the job. The timing syntax has five parts:
 ```
