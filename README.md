@@ -2,11 +2,13 @@
 
 One Paragraph of project description goes here
 
-## Related Files:
+## Compare configuration files and log changes
+
+### Related Files:
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Install Steps:
+### Install Steps:
 
 What things you need to install the software and how to install them
 1.give execute permission to that script using
