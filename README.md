@@ -1,12 +1,3 @@
-
-
-**1. Compare config files**
-## -Related Files:
-    
-## -
-    
-      
-
 # Project: python_server_monitoring
 
 One Paragraph of project description goes here
