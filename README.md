@@ -6,7 +6,9 @@ One Paragraph of project description goes here
 
 ### Related Files:
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+comp1.py 
+      Copy configuration file as archive when run the program first time
+      When find discrepancy, log in history.txt
 
 ### Install Steps:
 
