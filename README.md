@@ -14,6 +14,8 @@ One Paragraph of project description goes here
 
 What things you need to install the software and how to install them
       
+      * Copy related files to /home/hybris(or the folder you prefer)
+      
       * Give execute permission to that script using
           chmod a+x foo.py
       
