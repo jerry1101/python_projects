@@ -7,8 +7,8 @@ One Paragraph of project description goes here
 ### Related Files:
 
 comp1.py 
-      Copy configuration file as archive when run the program first time
-      When find discrepancy, log in history.txt
+      * Copy configuration file as archive when run the program first time
+      * When find discrepancy, log in history.txt
 
 ### Install Steps:
 
