@@ -1,6 +1,6 @@
 # Project: python_server_monitoring
 
-One Paragraph of project description goes here
+
 
 ## [FUNCTION#1] Compare configuration files and log changes
 
