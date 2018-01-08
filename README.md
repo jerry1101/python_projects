@@ -49,3 +49,8 @@ TBD
 
 
 ## [FUNCTION#2] Validate Links in Sitemap Page
+### Related Files:
+
+     validatelinks.py 
+      * fetch links in a web page
+      * fetch http response code(>200)
