@@ -11,7 +11,7 @@ def locallog(message, history_file='history.txt'):
     history.write("\n")
 
 
-def compareConfigFiles(deployed_file, archive_file):
+def comparefiles(deployed_file, archive_file):
 
     with open(deployed_file) as f:
         t1 = f.read().splitlines()
@@ -54,7 +54,7 @@ else:
     print("deployed file exists")
     if os.path.isfile(args.archivedFile):
         print("archived file exists")
-        compareConfigFiles(args.deployedFile,args.archivedFile)
+        comparefiles(args.deployedFile, args.archivedFile)
     else:
         print("archived file not exits")
         shutil.copy2(args.deployedFile,args.archivedFile)
