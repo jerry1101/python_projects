@@ -54,7 +54,7 @@ TBD
      validatelinks.py 
       * fetch links in a web page
       * fetch http response code(>200)
-## [FUNCTION#1] Collect the non-200 response in sitemap XML files
+## [FUNCTION#3] Collect the non-200 response in sitemap XML files
 
 ### Related Files:
 
