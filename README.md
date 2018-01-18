@@ -1,9 +1,9 @@
 # Project: python_server_monitoring
 
-
+[FUNCTION2](#FUNCTION2)
 
 ## [FUNCTION#1] Compare configuration files and log changes
-
+   ------------
 ### Related Files:
 
      comp1.py 
@@ -48,7 +48,8 @@ TBD
 ```
 
 
-## [FUNCTION#2] Validate Links in Sitemap Page
+## FUNCTION2 Validate Links in Sitemap Page
+   ---------
 ### Related Files:
 
      validatelinks.py 
@@ -56,6 +57,18 @@ TBD
       * fetch http response code(>200)
 ## [FUNCTION#3] Collect the non-200 response in sitemap XML files
 
+### Related Files:
+
+     ```
+     TBD
+     ```
+## [FUNCTION#4] Monitor of hot folder
+
+### TO-do
+1. load file names of IP
+2. find run id
+3. monitor the change of file number
+4. report left files
 ### Related Files:
 
      ```
