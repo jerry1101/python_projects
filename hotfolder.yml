@@ -1,0 +1,5 @@
+ip13:
+    file_prefix:
+        - store
+        - price
+    log_file: ./loghotfolder.txt
