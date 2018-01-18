@@ -1,9 +1,9 @@
 # Project: python_server_monitoring
 
-
+[FUNCTION#2](#FUNCTION#2)
 
 ## [FUNCTION#1] Compare configuration files and log changes
-
+   ------------
 ### Related Files:
 
      comp1.py 
@@ -49,6 +49,7 @@ TBD
 
 
 ## [FUNCTION#2] Validate Links in Sitemap Page
+   -----------
 ### Related Files:
 
      validatelinks.py 
