@@ -65,12 +65,11 @@ TBD
 ## [FUNCTION#4] Monitor of hot folder
 
 ### TO-do
-1. load file names of IP
-2. find run id
-3. monitor the change of file number
-4. report left files
+1. refactoring
+2. setup python as demon
 ### Related Files:
 
      ```
-     TBD
+     hotfolder_monitor.py :
+     hotfolder.yml : configuration file
      ```
